@@ -1,4 +1,4 @@
-{% set entry = craft.entries.section('eat').first() %}
+{% set entry = craft.entries.section('eat').slug(craft.request.segment(2)).first() %}
 
 {
 	"configuration": {
