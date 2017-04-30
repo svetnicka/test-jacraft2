@@ -1,0 +1,5 @@
+{% for entry in craft.entries.section('eat').find() %}
+	<div>
+		<p><strong><a href="/eat/{{ entry.slug }}" target="_new">{{ entry.title }}</a></strong> (<a href="http://www.justanswer.com/feapi/comp/th-page-rds/?dataSource=https://test-jacraft2.herokuapp.com/eat/{{ entry.slug }}" target="_blank">FEAPI</a>)</p>
+	</div>
+{% endfor %}

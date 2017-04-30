@@ -26,6 +26,8 @@ return array(
 
 		// Control Panel trigger word
 		'cpTrigger' => 'admin',
+
+		'defaultTemplateExtensions' => array('html', 'json')
 	],
 	'craft2' => [
 		'devMode' => true,
